@@ -32,8 +32,8 @@ export default class ReglesPanel {
       '<td class="resultat bien-place">S</td>' +
       '<td class="resultat non-trouve">A</td>' +
       '<td class="resultat non-trouve">L</td>' +
-      '<td class="resultat mal-place">U</td>' +
-      '<td class="resultat mal-place">T</td>' +
+      '<td class="resultat mal-place">E</td>' +
+      '<td class="resultat mal-place">M</td>' +
       "</tr>" +
       "</table>" +
       "Les lettres entourées d'un carré rouge sont bien placées,<br />" +
