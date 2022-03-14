@@ -59,7 +59,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
                     switch (_a.label) {
                         case 0:
                             aujourdhui = datePartie.getTime();
-                            origine = new Date(2022, 1, 11).getTime();
+                            origine = new Date(2022, 2, 14).getTime();
                             numeroGrille = Math.floor((aujourdhui - origine) / (24 * 3600 * 1000)) + 1;
                             return [4 /*yield*/, fetch("mots/" + numeroGrille + ".txt").then(function (resultat) { return resultat.text(); })];
                         case 1: return [2 /*return*/, _a.sent()];

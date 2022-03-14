@@ -4,7 +4,7 @@ export default class Dictionnaire {
 
   public async getMot(datePartie: Date): Promise<string> {
     let aujourdhui = datePartie.getTime();
-    let origine = new Date(2022, 1, 11).getTime();
+    let origine = new Date(2022, 2, 14).getTime();
 
     let numeroGrille = Math.floor((aujourdhui - origine) / (24 * 3600 * 1000)) + 1;
 

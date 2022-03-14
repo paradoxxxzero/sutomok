@@ -14,14 +14,17 @@ function shuffle(array) {
     currentIndex--;
 
     // And swap it with the current element.
-    [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex],
+      array[currentIndex],
+    ];
   }
 
   return array;
 }
 
 let aujourdhui = new Date().getTime();
-let origine = new Date(2022, 0, 8).getTime();
+let origine = new Date(2022, 2, 14).getTime();
 
 let numeroGrille = Math.floor((aujourdhui - origine) / (24 * 3600 * 1000));
 

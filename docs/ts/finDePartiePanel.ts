@@ -43,7 +43,7 @@ export default class FinDePartiePanel {
         }, "")
     );
     let dateGrille = this._datePartie.getTime();
-    let origine = new Date(2022, 0, 8).getTime();
+    let origine = new Date(2022, 2, 14).getTime();
     this._motATrouver = motATrouver;
     this._estVictoire = estBonneReponse;
     this._partieEstFinie = true;
@@ -62,7 +62,7 @@ export default class FinDePartiePanel {
       }
 
       navigator.clipboard
-        .writeText(this._resumeTexte + "\n\nhttps://sutom.nocle.fr")
+        .writeText(this._resumeTexte + "\n\nhttps://florian.mounier.dev/sutomok")
         .then(() => {
           NotificationMessage.ajouterNotificationPanel("Résumé copié dans le presse papier");
         })

@@ -45,7 +45,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
                 }, "");
             });
             var dateGrille = this._datePartie.getTime();
-            var origine = new Date(2022, 0, 8).getTime();
+            var origine = new Date(2022, 2, 14).getTime();
             this._motATrouver = motATrouver;
             this._estVictoire = estBonneReponse;
             this._partieEstFinie = true;
@@ -61,7 +61,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
                     notificationMessage_1.default.ajouterNotificationPanel("Votre navigateur n'est pas compatible");
                 }
                 navigator.clipboard
-                    .writeText(_this._resumeTexte + "\n\nhttps://sutom.nocle.fr")
+                    .writeText(_this._resumeTexte + "\n\nhttps://florian.mounier.dev/sutomok")
                     .then(function () {
                     notificationMessage_1.default.ajouterNotificationPanel("Résumé copié dans le presse papier");
                 })

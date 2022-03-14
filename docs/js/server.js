@@ -62,7 +62,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             app.use("/mots", express_1.default.static("mots/"));
             app.use("/node_modules/requirejs/require.js", express_1.default.static("node_modules/requirejs/require.js"));
             aujourdhui = new Date().getTime();
-            origine = new Date(2022, 0, 8).getTime();
+            origine = new Date(2022, 2, 14).getTime();
             numeroGrille = Math.floor((aujourdhui - origine) / (24 * 3600 * 1000)) + 1;
             fs_1.default.access("mots/" + numeroGrille + ".txt", fs_1.default.constants.F_OK, function (err) {
                 if (err) {
